@@ -1,15 +1,14 @@
 Name:		dmtx-utils
 Version:	0.7.4
-Release:	1
+Release:	2
 Summary:	a library for reading and writing Data Matrix 2D barcodes
 Source0:	http://downloads.sourceforge.net/project/libdmtx/libdmtx/0.7.4/%{name}-%{version}.tar.bz2
 Group:		Development/C++
 License: 	GPLv2
 URL:		http://www.libdmtx.org
-BuildRequires:  tiff-devel
 BuildRequires:	pkgconfig(ImageMagick)
 BuildRequires:	pkgconfig(libdmtx)
-BuildRequires:	pkgconfig(libpng15)
+Obsoletes: libdmtx-utils
 
 %description
 dmtx-utils is open source software for reading and writing Data Matrix 2D barcodes
