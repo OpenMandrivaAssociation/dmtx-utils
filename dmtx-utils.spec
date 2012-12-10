@@ -38,3 +38,29 @@ rm -rf %{buildroot}
 %{_mandir}/man1/dmtxquery*
 %{_mandir}/man1/dmtxread*
 %{_mandir}/man1/dmtxwrite*
+
+
+%changelog
+* Sat Dec 24 2011 Matthew Dawkins <mattydaw@mandriva.org> 0.7.4-2
++ Revision: 745082
+- rebuild to properly obsolete old utils pkg name
+- removed unneeded BRs
+- first build for spit out dmxt-utils from lib
+- copy dmtx-utils now split out from libdmtx
+- new version 0.7.4.tar.bz2
+- cleaned up spec
+
+* Fri Apr 29 2011 Oden Eriksson <oeriksson@mandriva.com> 0.7.2-2
++ Revision: 660235
+- mass rebuild
+
+  + John Balcaen <mikala@mandriva.org>
+    - Remove BuildRoot
+
+  + Nicolas Lécureuil <nlecureuil@mandriva.com>
+    - Fix Buildrequires
+
+* Tue Aug 31 2010 Ahmad Samir <ahmadsamir@mandriva.org> 0.7.2-1mdv2011.0
++ Revision: 574836
+- import libdmtx
+
