@@ -11,7 +11,8 @@ BuildRequires:	pkgconfig(libdmtx)
 Obsoletes: libdmtx-utils
 
 %description
-dmtx-utils is open source software for reading and writing Data Matrix 2D barcodes
+dmtx-utils is open source software for reading and writing Data Matrix 2D
+barcodes
 on Linux and Unix. At its core libdmtx is a shared library, allowing C/C++
 programs to use its capabilities without restrictions or overhead.
 
