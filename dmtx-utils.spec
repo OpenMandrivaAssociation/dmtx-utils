@@ -1,6 +1,6 @@
 Name:		dmtx-utils
 Version:	0.7.4
-Release:	2
+Release:	3
 Summary:	a library for reading and writing Data Matrix 2D barcodes
 Source0:	http://downloads.sourceforge.net/project/libdmtx/libdmtx/0.7.4/%{name}-%{version}.tar.bz2
 Group:		Development/C++
@@ -12,9 +12,9 @@ Obsoletes: libdmtx-utils
 
 %description
 dmtx-utils is open source software for reading and writing Data Matrix 2D
-barcodes
-on Linux and Unix. At its core libdmtx is a shared library, allowing C/C++
-programs to use its capabilities without restrictions or overhead.
+barcodes on Linux and Unix. At its core libdmtx is a shared library,
+allowing C/C++ programs to use its capabilities without restrictions
+or overhead.
 
 This package contains command line tools (dmtxread, dmtxwrite and dmtxquery)
 to test %{name} and to learn its behavior.
@@ -28,7 +28,6 @@ to test %{name} and to learn its behavior.
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall
 
 %files
