@@ -5,7 +5,7 @@ Summary:	a library for reading and writing Data Matrix 2D barcodes
 Source0:	http://downloads.sourceforge.net/project/libdmtx/libdmtx/0.7.4/%{name}-%{version}.tar.bz2
 Group:		Development/C++
 License: 	GPLv2
-URL:		http://www.libdmtx.org
+URL:		https://www.libdmtx.org
 BuildRequires:	pkgconfig(ImageMagick)
 BuildRequires:	pkgconfig(libdmtx)
 Obsoletes: libdmtx-utils
