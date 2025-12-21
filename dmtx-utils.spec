@@ -6,6 +6,11 @@ Source0:	http://downloads.sourceforge.net/project/libdmtx/libdmtx/0.7.4/%{name}-
 Group:		Development/C++
 License: 	GPLv2
 URL:		https://www.libdmtx.org
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(ImageMagick)
 BuildRequires:	pkgconfig(libdmtx)
 Obsoletes: libdmtx-utils
